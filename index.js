@@ -17,3 +17,20 @@ function ternaryCheckCity(city){
 }
 
 console.log(ternaryCheckCity("NYC"));
+
+function switchOnCharmFromTip(tip){
+
+  let rv="";
+    switch(tip) {
+        case "generous":
+            rv='Thank you so much.';
+            break;
+        case "not as generous":
+        rv = 'Thank you.';
+        break;
+        default:
+            rv = "Bye.";
+            break;
+    }
+    return rv;
+  }
