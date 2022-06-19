@@ -34,3 +34,5 @@ function switchOnCharmFromTip(tip){
     }
     return rv;
   }
+
+  console.log(switchOnCharmFromTip('thanks for everything'));
