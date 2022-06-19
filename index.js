@@ -16,3 +16,4 @@ function ternaryCheckCity(city){
   return rv;
 }
 
+console.log(ternaryCheckCity("NYC"));
